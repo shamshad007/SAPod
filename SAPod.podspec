@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
     
     s.name                    = 'SAPod'
-    s.version                 = '0.1.2'
+    s.version                 = '0.1.3'
     s.summary                 = 'Shamshad pod app'
     s.homepage                = 'https://github.com/shamshad007/SAPod'
     s.author                  = { 'shamshad007' => 'md.akhtar1993@gmail.com' }
@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
         :tag => s.version.to_s
     }
     s.source_files            = 'SAPod/**/*.swift'
+    s.resources = "SAPod/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
     s.requires_arc            = true
     s.ios.deployment_target   = '13.0'

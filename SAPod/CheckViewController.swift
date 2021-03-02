@@ -15,10 +15,11 @@ open class CheckViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         lblTitleApp.text = "SAPOD DEMO DONE"
+        changeColor(.yellow, lblTitleApp)
     }
     
-    open func changeColor(_ color : UIColor){
-        lblTitleApp.textColor = color
+    open func changeColor(_ color : UIColor, _ label : UILabel){
+        label.textColor = color
     }
 }
 
