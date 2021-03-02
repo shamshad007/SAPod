@@ -7,16 +7,18 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+open class CheckViewController: UIViewController {
     
     @IBOutlet var lblTitleApp: UILabel!
     
-    override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         lblTitleApp.text = "SAPOD DEMO DONE"
     }
-
-
+    
+    open func changeColor(_ color : UIColor){
+        lblTitleApp.textColor = color
+    }
 }
 
