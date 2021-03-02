@@ -9,7 +9,7 @@ import UIKit
 
 open class CheckViewController: UIViewController {
     
-    @IBOutlet var lblTitleApp: UILabel!
+    @IBOutlet open var lblTitleApp: UILabel!
     
     open override func viewDidLoad() {
         super.viewDidLoad()

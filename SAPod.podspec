@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
     
     s.name                    = 'SAPod'
-    s.version                 = '0.1.1'
-    s.summary                 = 'Myfirst pod app'
+    s.version                 = '0.1.2'
+    s.summary                 = 'Shamshad pod app'
     s.homepage                = 'https://github.com/shamshad007/SAPod'
     s.author                  = { 'shamshad007' => 'md.akhtar1993@gmail.com' }
     s.license                 = { :type => 'TOPSECRET', :file => 'SAPod/LICENSE' }
